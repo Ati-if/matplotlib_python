@@ -1,0 +1,47 @@
+number = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
+
+
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)  
+
+
+
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are not an adult")
+
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print(a, "is larger")
+else:
+    print(b, "is larger")
+
+
+
+secret_number = 7
+
+guess = int(input("Guess the number: "))
+
+if guess == secret_number:
+    print("Correct!")
+else:
+    print("Wrong guess!")    
+    

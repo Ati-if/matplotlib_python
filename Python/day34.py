@@ -1,0 +1,106 @@
+print("Hello MR . Atif")
+
+
+a = float(input("Enter the first number :"))
+b = float(input("Enter the second number :"))
+
+print("The sum of two numbers is : " , a + b)
+
+print("The difference of two numbers is :" , a - b)
+
+print("The product of two numbers is :" , a * b)
+
+print("The division of two numbers is :" , a / b)
+
+
+
+
+
+
+name = input("Enter your name :")
+age = int(input("Enter your age :"))
+
+print("Hello" , name , "You are" , age , "years old")
+
+print(f"Hello, {name}\nYou are {age} years old")
+
+
+
+
+
+
+number = int(input("Enter a number :"))
+
+for i in range(1 , 11) :
+    print(number , "x" , i , "=" , number * i)
+
+
+
+
+
+
+a = int(input("Enter the first number :"))
+b = int(input("Enter the second number :"))
+
+if a > b :
+    print(a , "is greater than " , b)
+
+else :
+    print(b , "is greater than " , a)
+
+
+
+
+
+
+
+
+secret_number = 10
+
+guess = int(input("Guess the secret number b/w 1 to 20 :"))
+
+if guess == secret_number :
+    print("Congratulations! You guessed the secret number correctly")
+
+else :
+    print("Sorry! You guessed the secret number incorrectly. The secret number is " , secret_number)
+
+
+
+
+
+
+
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0 
+
+for number in numbers :
+    total += number 
+
+print("The sum of the numbers in the list is :" , total)
+
+
+
+
+marks = int(input("Enter your marks :"))
+
+if marks >= 90 :
+    print("Grade : A+")
+
+elif marks >= 80 :
+    print("Grade : A")
+
+elif marks >= 70 :
+    print("Grade : B")
+
+elif marks >= 60 :
+    print("Grade : C")
+
+elif marks >= 50 :
+    print("Grade : D")
+
+else :
+    print("Grade : F")
+
