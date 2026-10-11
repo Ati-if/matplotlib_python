@@ -1,0 +1,94 @@
+total = 0
+
+for i in range(1, 101):
+    if i % 2 != 0:
+        total = total + i
+
+print("Sum =", total)
+
+
+
+
+
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for number in numbers:
+    total = total + number
+
+average = total / len(numbers)
+
+print("Average =", average)
+
+
+
+
+
+
+numbers = [10, 20, 30, 40, 50]
+
+search = int(input("Enter number to search: "))
+
+if search in numbers:
+    print("Number found")
+else:
+    print("Number not found")
+
+
+
+
+
+
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+fruits.remove("Mango")
+
+print(fruits)
+
+
+
+
+
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits.append("Orange")
+
+print(fruits)
+
+
+
+
+
+
+
+
+numbers = [50, 20, 40, 10, 30]
+
+numbers.sort()
+
+print(numbers)
+
+
+
+
+
+numbers = [10, 20, 10, 30, 20, 40]
+
+for number in numbers:
+    if numbers.count(number) > 1:
+        print(number)
+
+
+
+
+
+numbers = [10, 20, 10, 30, 10, 40]
+
+number = int(input("Enter number: "))
+
+count = numbers.count(number)
+
+print("Count =", count)

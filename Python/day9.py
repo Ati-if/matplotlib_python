@@ -1,0 +1,46 @@
+price1 = float(input("Enter price of item 1: "))
+price2 = float(input("Enter price of item 2: "))
+price3 = float(input("Enter price of item 3: "))
+
+total = price1 + price2 + price3
+
+print("Total bill =", total)
+
+
+
+
+price = float(input("Enter price: "))
+
+discount = price * 0.10
+final_price = price - discount
+
+print("Discount =", discount)
+print("Final price =", final_price)
+
+
+
+
+
+
+balance = 10000
+
+amount = float(input("Enter withdrawal amount: "))
+
+if amount <= balance:
+    balance = balance - amount
+    print("Withdrawal successful")
+    print("Remaining balance =", balance)
+else:
+    print("Insufficient balance")
+
+
+
+
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "Atii" and password == "1390":
+    print("Welcome Atii")
+else:
+    print("Your Data is at risk")
