@@ -97,3 +97,25 @@ plt.pie(s , labels = ['A' , 'B' , 'C'])
 
 plt.show()
 print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+import time
+import sys
+
+b = range(1000)
+
+print(sys.getsizeof(5) * len(b))
+
+c = np.arange(1000)
+
+print(c.size * c.itemsize)
