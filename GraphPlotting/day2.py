@@ -25,3 +25,25 @@ print(df.describe())
 from matplotlib import pylab
 
 print(pylab.__version__)
+
+
+
+
+
+
+
+
+
+
+
+
+#Use matplotlib to import random data
+
+import numpy as np
+
+x = np.linspace(0 , 5 , 10)
+
+y = x * x + 2 
+
+print(x)
+print(y)
