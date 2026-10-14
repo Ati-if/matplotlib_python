@@ -47,3 +47,26 @@ y = x * x + 2
 
 print(x)
 print(y)
+
+
+
+
+
+print(np.array([x , y]) . reshape(10 , 2))
+
+
+print(np.array([x, y]).reshape(-1, 2))
+
+
+
+
+
+
+
+
+
+# It takes only one command to draw a graph
+
+pylab.plot(x , y , 'g' , 'r')
+
+pylab.show()
