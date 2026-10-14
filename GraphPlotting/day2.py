@@ -10,3 +10,18 @@ print(df)
 
 
 print(df.describe())
+
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pylab
+
+print(pylab.__version__)
