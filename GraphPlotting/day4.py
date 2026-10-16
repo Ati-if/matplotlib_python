@@ -38,3 +38,21 @@ for ax  in axes.flat :
 
 
 plt.show()
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 4 , ncols = 4)
+
+
+for ax in axes.flat :
+    ax.set_title('Title')
+
+    ax.plot(x , y , 'r')
+
+plt.show()
