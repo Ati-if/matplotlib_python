@@ -56,3 +56,29 @@ for ax in axes.flat :
     ax.plot(x , y , 'r')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+#Draw a picture or graph inside a graph
+
+import numpy as np 
+import pylab
+
+x = np.linspace(0 , 10 , 100)
+y = np.sin(x)
+
+fig = pylab.figure()
+
+axis1 = fig.add_axes([0.1 , 0.1 , 0.8 , 0.8])
+axis2 = fig.add_axes([0.2 , 0.4 , 0.3 , 0.5])
+
+axis1.plot(x , y , 'b')
+axis2.plot(y , x , 'r')
+
+pylab.show()
