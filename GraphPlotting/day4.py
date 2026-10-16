@@ -162,3 +162,32 @@ axes.set_ylabel('Y-label')
 axes.set_title('Title')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+ax.legend(["label1" , "label2" , "label3"])
+
+fig , axes = plt.subplots()
+
+axes.set_xlabel('Xlabel')
+axes.set_ylabel('Ylabel')
+
+axes.set_title('Title')
+
+
+axes.plot(x , x ** 2 , label = 'X-squared')
+axes.plot(x , x ** 3 , label = 'Y-squared')
+
+axes.legend()
+
+plt.show()
