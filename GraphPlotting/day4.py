@@ -124,3 +124,19 @@ fig.add_subplot()
 plt.plot(x , y , 'b')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure(figsize = (18 , 8) , dpi = 150)
+
+plt.plot(x , y , 'b')
+
+pylab.show()
