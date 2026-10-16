@@ -140,3 +140,25 @@ fig = pylab.figure(figsize = (18 , 8) , dpi = 150)
 plt.plot(x , y , 'b')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots()
+
+axes.plot(x , y , 'b')
+
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+
+axes.set_title('Title')
+
+plt.show()
