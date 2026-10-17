@@ -110,3 +110,27 @@ line.set_dashes([5 , 10 , 20 , 15])
 
 plt.show()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplots(dpi = 100)
+
+ax.plot(x , x + 1 , color = 'blue' , marker = 'o')
+
+ax.plot(x , x + 2 , color = 'red' , marker = 's')
+
+ax.plot(x , x + 3 , color = 'blue' , marker = '+')
+
+ax.plot(x , x + 4 , color = 'red' , marker = 'x')
+
+plt.show()
