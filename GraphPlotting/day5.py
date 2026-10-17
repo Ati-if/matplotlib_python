@@ -170,3 +170,25 @@ ax.plot(x , x + 8 , color = 'green' , marker = 's' , markersize = '7' , markerfa
 
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplots(dpi = 100)
+ax.plot(x , x + 9 , color = 'blue'   , marker = 'o' , markersize = '5' , markerfacecolor = "red")
+ax.plot(x , x + 10 , color = 'yellow'   , marker = 's' , markersize = '4' , markerfacecolor = "black")
+ax.plot(x , x + 11 , color = 'purple'   , marker = '+' , markersize = '6' , markerfacecolor = "green")
+ax.plot(x , x + 12 , color = 'violet'   , marker = 'x' , markersize = '7' , markerfacecolor = "blue")
+
+plt.show()
