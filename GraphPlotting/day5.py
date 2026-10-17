@@ -74,3 +74,39 @@ line.set_dashes([2 , 2 , 10 , 2])
 plt.show()
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%matplotlib inline
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0 , 10 , 100)
+
+fig , ax = plt.subplots()
+
+
+ax.plot(x , x + 1 , color = 'blue' , lw = 2 , linestyle = '-')
+
+ax.plot(x , x + 2 , color = 'red' , lw = 2 , linestyle = '-')
+
+ax.plot(x , x + 3 , color = 'orange' , lw = 2 , linestyle = ':')
+
+
+line, = ax.plot(x , x + 4 , color = 'black' , lw = 2)
+line.set_dashes([5 , 10 , 20 , 15])
+
+
+plt.show()
+
