@@ -134,3 +134,28 @@ ax.plot(x , x + 3 , color = 'blue' , marker = '+')
 ax.plot(x , x + 4 , color = 'red' , marker = 'x')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplots(dpi = 100)
+
+ax.plot(x , x + 5 , color = 'blue' , marker = 'o' , markersize = '5' , markerfacecolor = "red")
+
+ax.plot(x , x + 6 , color = 'yellow' , marker = 's' , markersize = '4' , markerfacecolor = 'blue')
+
+ax.plot(x , x + 7 , color = 'red' , marker = '+' , markersize = '6' , markerfacecolor = 'violet')
+
+ax.plot(x , x + 8 , color = 'green' , marker = 's' , markersize = '7' , markerfacecolor = 'black')
+
+
+plt.show()
