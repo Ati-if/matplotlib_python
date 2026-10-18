@@ -48,3 +48,31 @@ axes[1].set_title('Title')
 axes[1].grid(True)
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(1 , 2 , figsize = (10 , 5))
+
+
+
+axes[0].plot(x , x ** 3 , x ** 4 , lw = '3')
+axes[0].set_ylim(0 , 50)
+axes[0].set_xlim(0 , 50)
+axes[0].grid[True]
+
+axes[1].plot(x , x ** 2 , x ** 3 , lw = '4')
+axes[1].set_ylim(0 , 60)
+axes[1].set_xlim(0 , 60)
+axes[1].grid[True]
+
+plt.show()
