@@ -200,3 +200,35 @@ axes[3].set_title('scatter plot')
 axes[3].scatter(x , x + 4 * np.random.randn(len(x)))
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n  = np.array([0 , 1 , 2 , 3 , 4 , 5])
+
+fig , axes = plt.subplots(1 , 4  , figsize = (10 , 5))
+axes[0].set_title('scatter plot')
+axes[0].scatter(x , x + 1 * np.random.randn(len(x)))
+axes[1].set_title('step')
+axes[1].step(x , x + 2 * np.random.randn(len(x)))
+axes[2].set_title('bar')
+axes[2].bar(n , n * 2 , align = 'center' , width = 0.5 , alpha = 0.5)
+axes[3].set_title('Fill_Between')
+axes[3].fill_between(x , x ** 2 , x ** 3 , color = 'green'  , alpha = 0.5)
+
+plt.show()
