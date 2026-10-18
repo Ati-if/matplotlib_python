@@ -121,3 +121,23 @@ axes[1].legend()
 
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n = np.array([0 , 1 , 2 , 3 , 4 , 5])
+
+X , Y = np.meshgrid(n , n)
+
+print(X)
+print(Y)
