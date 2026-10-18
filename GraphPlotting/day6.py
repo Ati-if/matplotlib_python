@@ -173,3 +173,30 @@ axes[3].plot(X , Y ** 4 , marker = 'o')
 axes[3].set_title('Scatter Plot')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n  = np.array([0 , 1 , 2 , 3 , 4 , 5])
+
+fig , axes = plt.subplots(1 , 4  , figsize = (10 , 5))
+axes[0].set_title('scatter plot')
+axes[0].scatter(x , x + 1 * np.random.randn(len(x)))
+axes[1].set_title('scatter plot')
+axes[1].scatter(x , x + 2 * np.random.randn(len(x)))
+axes[2].set_title('scatter plot')
+axes[2].scatter(x , x + 3 * np.random.randn(len(x)))
+axes[3].set_title('scatter plot')
+axes[3].scatter(x , x + 4 * np.random.randn(len(x)))
+
+plt.show()
