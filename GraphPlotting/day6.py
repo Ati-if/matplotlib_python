@@ -141,3 +141,35 @@ X , Y = np.meshgrid(n , n)
 
 print(X)
 print(Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n = np.array([0 , 1 , 2 , 3 , 4 , 5 , 6])
+
+
+fig , axes = plt.subplots(1 , 4 ,  figsize = (10 , 5))
+
+axes[0].plot(X , Y , marker = 'o')
+axes[0].set_title('Scatter Plot')
+
+axes[1].plot(X , Y ** 2 , marker = 'o')
+axes[1].set_title('Scatter Plot')
+
+axes[2].plot(X , Y ** 3 , marker = 'o')
+axes[2].set_title('Scatter Plot')
+
+axes[3].plot(X , Y ** 4 , marker = 'o')
+axes[3].set_title('Scatter Plot')
+
+plt.show()
