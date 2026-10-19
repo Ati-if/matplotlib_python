@@ -74,7 +74,7 @@ plt.show()
 
 
 
-
+import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -86,11 +86,11 @@ fig , axes = plt.subplots(1 , 2 , figsize = (10 , 5))
 
 axes[0].set_title('Histogram')
 
-axes[0].hist(n)
+axes[0].hist(hist_data)
 
-axes[1].set_title('Commulative Detailed Histogram')
+axes[1].set_title('Cummulative Detailed Histogram')
 
-axes[1].hist(n , comulative = True , density = 1 , bins = 50)
+axes[1].hist(hist_data , cumulative = True , density = 1 , bins = 50)
 
 
 plt.show()
