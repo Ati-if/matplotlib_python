@@ -19,4 +19,4 @@ fig , axes = plt.subplots(1 , 5 , figsize = (10 , 20))
 
 ax = fig.add_axes([0.1 , 0.1 , 0.8 , 0.8] , polar = True)
 
-plt.show
+plt.show()
