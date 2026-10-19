@@ -191,3 +191,28 @@ axes[1].set_title('Filled Contour Plot')
 axes[1].contourf(X , Y , Z , cmap = 'viridis')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplots()
+
+CS = ax.contour(X , Y , Z)
+
+ax.clabel(CS , inline = True , fontsize = 10)
+
+ax.set_title('Labouled Contour Plot')
+
+plt.show()
