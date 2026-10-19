@@ -184,7 +184,7 @@ Z = (Z1 - Z2) * 2
 fig , axes = plt.subplots(1 , 2 , figsize = (10 , 5))
 
 axes[0].set_title('Contour Plot')
-axes[0].cotour(X , Y , Z)
+axes[0].contour(X , Y , Z)
 
 
 axes[1].set_title('Filled Contour Plot')
