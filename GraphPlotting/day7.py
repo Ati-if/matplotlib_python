@@ -123,7 +123,8 @@ axes[1].hist(hist_data , cumulative = True , density = 1 , bins = 50)
 axes[2].set_title('Histogram of hist_data')
 axes[2].hist(hist_data)
 
-axes[3].set_title('Cummulative Detailed Histogram of hist_data')
+
+axes[3].set_title('Detailed Histogram of hist_data')
 axes[3].hist(hist_data , cumulative = True , density = 2 , bins = 50)
 
 plt.show()
