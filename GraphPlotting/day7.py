@@ -94,3 +94,36 @@ axes[1].hist(hist_data , cumulative = True , density = 1 , bins = 50)
 
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hist_data = np.random.randn(1000)
+
+fig , axes = plt.subplots(1 , 4 , figsize = (20 , 5))
+
+axes[0].set_title('Histogram of n')
+axes[0].hist(hist_data)
+
+
+axes[1].set_title('Cummulative Detailed History of n')
+axes[1].hist(hist_data , cumulative = True , density = 1 , bins = 50)
+
+axes[2].set_title('Histogram of hist_data')
+axes[2].hist(hist_data)
+
+axes[3].set_title('Cummulative Detailed Histogram of hist_data')
+axes[3].hist(hist_data , cumulative = True , density = 2 , bins = 50)
+
+plt.show()
