@@ -167,3 +167,27 @@ Z1  = np.exp(-X ** 2 - Y ** 2)
 Z2 = np.exp(-(X - 1) ** 2 - (Y - 1) ** 2)
 
 Z = (Z1 - Z2) * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(1 , 2 , figsize = (10 , 5))
+
+axes[0].set_title('Contour Plot')
+axes[0].cotour(X , Y , Z)
+
+
+axes[1].set_title('Filled Contour Plot')
+axes[1].contourf(X , Y , Z , cmap = 'viridis')
+
+plt.show()
