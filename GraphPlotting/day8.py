@@ -70,3 +70,35 @@ fig.colorbar(cf, ax=axes[1])
 
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create your data
+x = np.linspace(-3.0, 3.0, 100)
+y = np.linspace(-2.0, 2.0, 100)
+X, Y = np.meshgrid(x, y)
+Z = np.sin(X) + np.cos(Y)
+
+# Create a single plot window
+fig, ax = plt.subplots(figsize=(6, 5))
+
+# Draw the filled contour graph
+cf = ax.contourf(X, Y, Z, cmap="viridis")
+
+# Add a colorbar to show the scale
+fig.colorbar(cf)
+
+ax.set_title("Contour Plot")
+plt.show()
