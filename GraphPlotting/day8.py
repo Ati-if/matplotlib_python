@@ -177,3 +177,32 @@ y = [12 , 14 , 16]
 
 x2 = [3 , 3 , 5]
 y2 = [7 , 14 , 18]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+
+plt.bar (x , y , label = 'bar1' , color = 'green')
+
+plt.bar (x2 , y2 , label = 'bar2' , color = 'red')
+
+plt.xlabel ('Bar Number')
+
+plt.ylabel ('Bar Height')
+
+plt.title('Bar Chart')
+
+plt.legend()
+
+plt.show()
