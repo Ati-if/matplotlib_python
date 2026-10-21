@@ -1,3 +1,16 @@
+print("Hello Everyone! This is the 9th day of learning Python")
+
+
+
+
+
+
+
+
+
+
+
+
 from matplotlib import style
 
 style.use ('ggplot')
