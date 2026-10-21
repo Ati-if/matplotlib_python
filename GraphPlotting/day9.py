@@ -41,3 +41,23 @@ plt.title('Bar Chart')
 plt.legend()
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+import numpy as np
+
+s = np.array([2 , 3  ,4])
+
+plt.pie(s , labels = ['A' , 'B' , 'C'])
+
+plt.show()
+
+print(s)
