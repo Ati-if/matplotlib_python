@@ -94,3 +94,13 @@ y = x * x + 2
 
 print(x)
 print(y)
+
+
+
+
+
+
+
+
+
+print(np.array([x , y]) . reshape(25 , 2))
