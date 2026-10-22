@@ -114,3 +114,29 @@ print(np.array([x , y]) .  reshape(25 , 2))
 
 pylab.plot(x , y , 'g' , 'r')
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+#Drawing a subgraph
+
+pylab.subplot(2 , 2 , 4)
+pylab.plot(x , y , 'r')
+
+pylab.subplot(2 , 3 , 4)
+pylab.plot(y , x , 'g--')
+
+pylab.subplot(2 , 4 , 6)
+pylab.plot(x , y , 'b')
+
+pylab.subplot(3 , 5 , 7)
+pylab.plot(y , x , 'y--')
+
+pylab.show()
