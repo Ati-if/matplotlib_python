@@ -103,3 +103,14 @@ print(y)
 
 
 print(np.array([x , y]) .  reshape(25 , 2))
+
+
+
+
+
+
+
+
+
+pylab.plot(x , y , 'g' , 'r')
+pylab.show()
