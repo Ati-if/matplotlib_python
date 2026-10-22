@@ -184,3 +184,27 @@ pylab.subplot(2 , 2 , 3)
 pylab.plot(x , y , 'b--')
 
 pylab.show()
+
+
+
+
+
+
+
+import pylab
+
+# Example data
+x = [1, 2, 3, 4]
+y = [1, 4, 9, 16]
+
+
+
+pylab.subplot(2 , 2 , 1)
+
+pylab.plot(x , y , 'y--')
+
+pylab.subplots(2 , 1 , 2)
+
+pylab.plot(y , x , 'b+-')
+
+pylab.show()
