@@ -191,20 +191,17 @@ pylab.show()
 
 
 
+
+
 import pylab
 
-# Example data
 x = [1, 2, 3, 4]
 y = [1, 4, 9, 16]
 
+# Create a figure with 2 rows and 1 column of subplots
+fig, (ax1, ax2) = pylab.subplots(2, 1)
 
-
-pylab.subplot(2 , 2 , 1)
-
-pylab.plot(x , y , 'y--')
-
-pylab.subplots(2 , 1 , 2)
-
-pylab.plot(y , x , 'b+-')
+ax1.plot(x, y, 'y+-')
+ax2.plot(y, x, 'b--')
 
 pylab.show()
