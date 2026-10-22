@@ -57,3 +57,16 @@ plt.pie(s , labels = ['A' , 'B' , 'C'])
 
 plt.show()
 print(s)
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pylab
+
+print(pylab.__version__)
