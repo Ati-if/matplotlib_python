@@ -189,3 +189,30 @@ axis.set_ylabel('Y-label')
 
 axis.set_title('Title')
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample data for x and y (make sure these are defined in your code)
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# 1. Define nrows and ncols inside plt.subplots() correctly
+fig, axes = plt.subplots(nrows=4, ncols=4)
+
+# 2. Use 'ax' (singular) for the loop variable, NOT 'axes'
+for ax in axes.flat:
+  ax.plot(x, y, "b")
+
+plt.show()
