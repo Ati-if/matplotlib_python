@@ -149,7 +149,7 @@ pylab.show()
 
 
 
-pylab.subplot(2 , 2 , 1)
+pylab.subplot(1 , 2 , 1)
 pylab.plot(x , y , 'r--')
 
 
@@ -158,7 +158,7 @@ pylab.plot(y , x , 'b--')
 
 
 pylab.subplot(1 , 2 , 1)
-pylab.plot(x , y , 'y--')
+pylab.plot(x , y , 'g--')
 
 
 pylab.show()
