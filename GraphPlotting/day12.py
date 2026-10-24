@@ -17,3 +17,18 @@ y = (12 , 14 , 16)
 
 x2 = [3 , 5 , 7]
 y2 = [7 , 14 , 18]
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pylab
+
+pylab.plot(x , y , 'g' , 'r')
+
+pylab.show()
