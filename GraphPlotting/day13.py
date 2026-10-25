@@ -194,3 +194,35 @@ pylab.subplot(1 , 2 , 1)
 pylab.plot(x , y , 'b+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+import pylab
+
+# Create your data (example)
+# x = ...
+# y = ...
+
+# Set up a figure with 1 row and 2 columns
+pylab.figure(figsize=(10, 4))
+
+# --- First Subplot (Left side) ---
+pylab.subplot(1, 2, 1)
+pylab.plot(x, y, "r--", label="y vs x (dashed)")
+pylab.plot(x, y, "b+-", label="y vs x (blue +)")  # Overlays on the first subplot
+pylab.legend()
+
+# --- Second Subplot (Right side) ---
+pylab.subplot(1, 2, 2)
+pylab.plot(y, x, "g--", label="x vs y")  # or 'y--' depending on your color choice
+pylab.legend()
+
+pylab.show()
