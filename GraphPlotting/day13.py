@@ -226,3 +226,35 @@ pylab.plot(y, x, "g--", label="x vs y")  # or 'y--' depending on your color choi
 pylab.legend()
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+
+fig = pylab.figure()
+
+axis = fig.add_axes([0.1 , 0.8 , 0.8 , 0.1])
+
+axis.plot(x , y , 'b')
+axis.set_xlabel('X-label')
+axis.set_ylabel('Y-label')
+
+axis.set_title('Title')
+
+plt.show()
