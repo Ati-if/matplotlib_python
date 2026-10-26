@@ -213,3 +213,28 @@ pylab.subplot(1 , 2 , 2)
 pylab.plot(y , x , 'g+-')
 pylab.subplot(1 , 2 , 1)
 pylab.plot(y , x , 'g+-')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+fig = pylab.figure()
+axis = fig.add_axes([0.1, 0.1, 0.8, 0.8])    #control left , right , width , height of canvas(from 0 to 1)
+axis.plot(x , y , 'b')
+axis.set_xlabel('X-Label')
+axis.set_ylabel('Y-Label')
+axis.set_title('Title')
