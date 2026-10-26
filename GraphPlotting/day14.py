@@ -238,3 +238,17 @@ axis.plot(x , y , 'b')
 axis.set_xlabel('X-Label')
 axis.set_ylabel('Y-Label')
 axis.set_title('Title')
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 3 , ncols = 4) #submap is of 3 rows and 4 columns
+for ax in axes.flat:
+    ax.plot(x , y , 'b')
