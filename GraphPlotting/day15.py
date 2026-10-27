@@ -161,3 +161,5 @@ pylab.subplot(2 , 2 , 3)
 pylab.plot(x , y , 'b--')
 pylab.subplot(2 , 2 , 4)
 pylab.plot(y , x , 'y--')
+
+pylab.show()
