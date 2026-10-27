@@ -114,3 +114,29 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'o--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 2 , 1)
+pylab.plot(x , y , 'b--')
+
+pylab.subplot(2 , 2 , 2)
+pylab.plot(y , x , 'r--')
+
+pylab.subplot(2 , 2 , 3)
+pylab.plot(x , y , 'o--')
+
+pylab.subplot(2 , 2 , 1)
+pylab.plot(y , x , 'b')
+
+pylab.show()
