@@ -59,3 +59,19 @@ plt.pie(s , labels = ['A' , 'B' , 'C'])
 
 plt.show()
 print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pylab
+
+pylab.plot(x , y , 'b--' , 'r')
+pylab.show()
