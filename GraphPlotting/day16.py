@@ -238,3 +238,31 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'g+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #(1 , 2 , 1) and (2 , 1 , 2) are significant if we want tiled subplots , without which both the graphs will be in the same plot
+
+# For example
+
+pylab.subplot(1 , 2 , 1)
+pylab.plot(x , y , 'r--')
+pylab.subplot(1 , 2 , 2)
+pylab.plot(y , x , 'g+-')
+pylab.subplot(1 , 2 , 1)
+pylab.plot(y , x , 'g+-')
+
+
+pylab.show()
