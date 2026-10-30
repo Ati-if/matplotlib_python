@@ -17,3 +17,22 @@ y = [6 , 8 , 4]
 x2 = [5 , 7 , 9]
 y2 = [12 , 14 , 16]
 
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pylab
+
+pylab.subplot(1 , 1 , 1)
+pylab.plot(x , y , 'r--')
+
+pylab.subplot(1 , 1 , 1)
+pylab.plot(y , x , 'b+-')
+
+pylab.show()
