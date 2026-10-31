@@ -36,3 +36,26 @@ pylab.subplot(1 , 2 , 2)
 pylab.plot(y , x , 'r')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+
+fig = pylab.figure()
+
+axis = fig.add_axes([0.1 , 0.1 , 0.8 , 0.8])
+
+axis.plot(x , y , 'b')
+axis.set_xlabel('X-label')
+axis.set_ylabel('Y-label')
+axis.set_title('Title')
+
+plt.show()
