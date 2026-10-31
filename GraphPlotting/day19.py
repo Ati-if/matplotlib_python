@@ -177,3 +177,21 @@ plt.ylabel('Y-label')
 
 plt.title('Title')
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure(figsize = (16 , 9) , dpi = 100)
+
+fig.add_subplot()
+
+plt.plot(x , y , 'b--')
+plt.show()
