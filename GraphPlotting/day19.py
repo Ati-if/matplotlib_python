@@ -94,3 +94,21 @@ for ax in axes.flat :
     ax.plot(x , y , 'r--')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(1 , 1 , 1)
+pylab.plot(x , y , 'r--')
+
+pylab.subplot(2 , 1 , 2)
+pylab.plot(y , x , 'b+-')
+
+pylab.show()
