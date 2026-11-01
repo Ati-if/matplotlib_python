@@ -223,3 +223,36 @@ axes.plot(x, x**3, label="X-cubed")
 
 axes.legend()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+
+x = [0, 1, 2, 3, 4, 5]
+
+# Calculate y values using list comprehensions
+y_squared = [val**2 for val in x]
+y_cubed = [val**3 for val in x]
+
+fig, axes = plt.subplots()
+
+axes.set_xlabel("X-label")
+axes.set_ylabel("Y-label")
+axes.set_title("Title")
+
+axes.plot(x, y_squared, label="X-squared")
+axes.plot(x, y_cubed, label="X-cubed")
+
+axes.legend()
+plt.show()
