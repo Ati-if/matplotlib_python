@@ -1,4 +1,4 @@
-print("Hello World! This is Atif continuing to learn python.")
+﻿print("Hello World! This is Atif continuing to learn python.")
 
 
 
@@ -194,4 +194,29 @@ plt.xlabel('X-label')
 plt.ylabel('Y-label')
 plt.title('Title')
 
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+axis1.legend(['label1' , 'label2' , 'label3'])
+
+fig , axes = plt.subplots()
+
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+
+axes.set_title('Title')
+axes.plot(x , x ** 2 , label = 'X-squared')
+axes.plot(x , x ** 3 , label = 'X-cubed')
+
+axes.legend()
 plt.show()
