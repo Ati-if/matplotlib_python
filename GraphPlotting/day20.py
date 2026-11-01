@@ -205,18 +205,21 @@ plt.show()
 
 
 
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Convert or create x as a NumPy array
+x = np.linspace(0, 10, 100)
 
-axis1.legend(['label1' , 'label2' , 'label3'])
+fig, axes = plt.subplots()
 
-fig , axes = plt.subplots()
+axes.set_xlabel("X-label")
+axes.set_ylabel("Y-label")
+axes.set_title("Title")
 
-axes.set_xlabel('X-label')
-axes.set_ylabel('Y-label')
-
-axes.set_title('Title')
-axes.plot(x , x ** 2 , label = 'X-squared')
-axes.plot(x , x ** 3 , label = 'X-cubed')
+# Works because NumPy arrays support **
+axes.plot(x, x**2, label="X-squared")
+axes.plot(x, x**3, label="X-cubed")
 
 axes.legend()
 plt.show()
