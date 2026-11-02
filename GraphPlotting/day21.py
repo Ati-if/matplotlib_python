@@ -19,3 +19,19 @@ y2 = [9 , 11 , 13]
 
 
 
+
+
+
+
+from matplotlib import pyplot as plt
+
+fig = plt.figure()
+axis = fig.add_axes([0.1 , 0.1 , 0.8 , 0.8])
+axis.plot(x , y , 'b--')
+axis.plot(x2 , y2 , 'r--')
+
+axis.set_xlabel('X-label')
+axis.set_ylabel('Y-label')
+axis.set_title('Title')
+
+plt.show()
