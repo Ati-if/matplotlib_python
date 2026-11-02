@@ -141,4 +141,4 @@ fig.add_subplot(2 , 1 , 2)
 
 plt.plot(x , y , 'y--')
 
-plt.show()
+pylab.show()
