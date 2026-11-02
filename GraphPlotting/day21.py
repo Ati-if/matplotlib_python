@@ -78,3 +78,47 @@ axis1.plot(x , y , 'b--')
 axis2.plot(y , x , 'r--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 1 , 2)
+pylab.plot(x , y , 'b--')
+
+
+pylab.subplot(2 , 2 , 3)
+pylab.plot(y , x , 'r--')
+
+pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure()
+
+fig.add_subplot(2 , 1 , 2)
+
+plt.plot(x , y , 'b--')
+plt.xlabel('X-label')
+plt.ylabel('Y-label')
+
+plt.title('Title')
+
+plt.show()
