@@ -122,3 +122,23 @@ plt.ylabel('Y-label')
 plt.title('Title')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure(figsize = (8 , 4) , dpi = 100)
+
+fig.add_subplot(2 , 1 , 2)
+
+plt.plot(x , y , 'y--')
+
+plt.show()
