@@ -53,3 +53,26 @@ for ax in axes.flat :
     ax.plot(x , y , 'b--')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 2 , ncols = 4)
+
+for ax in axes.flat :
+    ax.set_xlabel('X-label')
+    ax.set_ylabel('Y-label')
+    ax.plot(x , y , 'b--')
+    ax.plot(y , x , 'r--')
+
+plt.show()
