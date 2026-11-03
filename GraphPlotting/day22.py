@@ -76,3 +76,25 @@ for ax in axes.flat :
     ax.plot(y , x , 'r--')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure()
+
+axis1 = fig.add_axes([0.1 , 0.1 , 0.8 , 0.8])
+axis2 = fig.add_axes([0.2 , 0.4 , 0.3 , 0.5])
+
+axis1.plot(x , y , 'b--')
+axis2.plot(y , x , 'y+-')
+
+pylab.show()
