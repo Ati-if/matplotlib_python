@@ -1,0 +1,1 @@
+print("Hello World! This is a sample code for day 23 of graph plotting.")
