@@ -94,3 +94,27 @@ pylab.subplot(1 , 2 , 2)
 pylab.plot(y , x , 'g+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+
+fig = plt.figure()
+
+axis = fig.add_axes([0.1 , 0.1 , 0.8 , 0.8])
+axis.plot(x , y , 'r--')
+axis.set_xlabel('X-Axis')
+axis.set_ylabel('Y-Axis')
+axis.set_title('Graph Plotting')
+
+plt.show()
