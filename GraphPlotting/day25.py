@@ -73,3 +73,24 @@ axis.set_xlabel('X-Axis')
 axis.set_ylabel('Y-Axis')
 axis.set_title('Graph Plotting')
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 2 , ncols = 2)
+
+for ax in axes.flat :
+    ax.plot(x , y , 'r--')
+    ax.set_xlabel('X-Axis')
+    ax.set_ylabel('Y-Axis')
+    ax.set_title('Graph Plotting')
+
+plt.show()
