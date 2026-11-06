@@ -94,3 +94,26 @@ for ax in axes.flat :
     ax.set_title('Graph Plotting')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 2 , ncols = 4)
+
+for ax in axes.flat :
+    ax.plot(x , y , 'r--')
+    ax.set_xlabel('X-Axis')
+    ax.set_ylabel('Y-Axis')
+    ax.set_title('Graph')
+
+plt.tight_layout()
+plt.show()
