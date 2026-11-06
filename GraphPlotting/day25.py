@@ -117,3 +117,32 @@ for ax in axes.flat :
 
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pylab 
+
+fig = pylab.figure()
+
+axis1 = fig.add_axes([0.1 , 0.2 , 0.4 , 0.4])
+axis2 = fig.add_axes([0.5 , 0.4 , 0.3 , 0.2])
+
+axis1.plot(x , y , 'r--')
+axis1.set_xlabel('X-Axis')
+axis1.set_ylabel('Y-Axis')
+axis1.set_title('Plotting')
+
+axis2.plot(x2 , y2 , 'b--')
+axis2.set_xlabel('X-Axis')
+axis2.set_ylabel('Y-Axis')
+axis2.set_title('Plotting')
+
+pylab.show()
