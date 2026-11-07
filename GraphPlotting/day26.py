@@ -93,3 +93,21 @@ axis.set_ylabel('Y-label')
 axis.set_title('Graph')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 2 , ncols = 4)
+
+for ax in axes.flat :
+    ax.plot(x , y , 'b--')
+
+plt.show()
