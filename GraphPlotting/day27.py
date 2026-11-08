@@ -92,3 +92,21 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'b--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 1 , 2)
+pylab.plot(x , y , 'b--')
+
+pylab.subplot(1 , 2 , 1)
+pylab.plot(y , x , 'g--')
+
+pylab.show()
