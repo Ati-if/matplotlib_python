@@ -150,3 +150,27 @@ for ax in axes.flat :
     ax.plot(x , y , 'b--')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure()
+
+axis1 = fig.add_axes([0.1 , 0.1 , 0.2 , 0.4])
+axis2 = fig.add_axes([0.3 , 0.5 , 0.6 , 0.7])
+
+axis1.plot(x , y , 'g--')
+axis2.plot(y , x , 'r--')
+
+pylab.show()
