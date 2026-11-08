@@ -130,3 +130,23 @@ pylab.subplot(1 , 3 , 2)
 pylab.plot(y , x , 'y--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+fig , axes = plt.subplots(nrows = 2 , ncols = 4)
+
+for ax in axes.flat :
+    ax.set_title('Graph')
+    ax.plot(x , y , 'b--')
+
+plt.show()
