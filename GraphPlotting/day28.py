@@ -95,3 +95,24 @@ for ax in axes.flat :
     ax.plot(x , y , 'b--')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 3 , ncols = 5)
+
+for ax in axes.flat :
+    ax.set_title('Title')
+    ax.plot(x , y , 'g--')
+    ax.set_xlabel('X-label')
+    ax.set_ylabel('Y-label')
+
+plt.show()
