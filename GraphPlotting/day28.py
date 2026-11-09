@@ -36,3 +36,21 @@ pylab.subplot(2 , 2 , 2)
 pylab.plot(y , x , 'y+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 1 , 2)
+pylab.plot(x , y , 'r--')
+
+pylab.subplot(2 , 4 , 2)
+pylab.plot(y , x , 'b--')
+
+pylab.show()
