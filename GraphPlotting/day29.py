@@ -108,3 +108,20 @@ axis.set_title('Title')
 
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 4 , ncols = 6)
+
+for ax in axes.flat :
+    ax.plot(x , y , 'b--')
+
+plt.show()
