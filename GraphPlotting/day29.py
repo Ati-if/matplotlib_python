@@ -86,3 +86,25 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'y+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt 
+
+fig = pylab.figure()
+
+axis = fig.add_axes([0.2 , 0.2 , 0.4 , 0.4])
+
+axis.plot(x , y , 'r--')
+axis.set_xlabel('X-label')
+axis.set_ylabel('Y-label')
+axis.set_title('Title')
+
+
+pylab.show()
