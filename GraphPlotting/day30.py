@@ -85,3 +85,27 @@ plt.ylabel('Y-label')
 plt.title('Title')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure()
+
+fig.add_subplot()
+
+plt.plot(x , y , 'g--')
+plt.xlabel('X-label')
+plt.ylabel('Y-label')
+plt.title('Graph')
+
+pylab.show()
