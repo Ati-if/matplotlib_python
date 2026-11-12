@@ -109,3 +109,26 @@ plt.ylabel('Y-label')
 plt.title('Graph')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 2 , 1)
+pylab.plot(x , y , 'r--')
+
+pylab.subplot(2 , 1 , 2)
+pylab.plot(y , x , 'g+-')
+
+pylab.show()
