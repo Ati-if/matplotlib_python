@@ -105,3 +105,24 @@ for ax in axes.flat :
     ax.plot(x , y , 'y--')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 3 , ncols = 6)
+
+for ax in axes.flat :
+    ax.set_title('Set')
+    ax.plot(x , y , 'r--')
+
+plt.show()
