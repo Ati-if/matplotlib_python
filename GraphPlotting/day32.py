@@ -58,3 +58,23 @@ plt.xlabel('X-label')
 plt.ylabel('Y-label')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure(figsize = (16 , 10) , dpi = 100)
+
+fig.add_subplot()
+
+plt.plot(x , y , 'g--')
+pylab.show()
