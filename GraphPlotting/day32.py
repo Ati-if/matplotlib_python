@@ -100,3 +100,24 @@ axes.set_ylabel('Y-label')
 axes.set_title('Graph')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots()
+axes.set_xlabel('X-Label')
+axes.set_ylabel('Y-Label')
+axes.set_title('Title')
+axes.plot(x , [value ** 2 for value in x] , label = 'X-Squared')
+axes.plot(x , [value ** 3 for value in x] , label = 'X-Cubed')
+axes.legend()
+
+plt.show()
