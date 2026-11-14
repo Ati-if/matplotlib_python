@@ -78,3 +78,25 @@ fig.add_subplot()
 
 plt.plot(x , y , 'g--')
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots()
+
+axes.plot(x , y , 'g--')
+
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+axes.set_title('Graph')
+
+plt.show()
