@@ -56,3 +56,20 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'b--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots()
+
+axes.plot(x , y , 'g--')
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+axes.set_title('Title')
+
+plt.show()
