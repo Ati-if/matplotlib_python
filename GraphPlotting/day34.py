@@ -126,3 +126,27 @@ axis.set_xlabel('X-label')
 axis.set_ylabel('Y-label')
 axis.set_title('Graph')
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 3 , ncols = 6)
+
+for ax in axes.flat :
+    ax.plot(x , y , 'g--')
+    ax.plot(y , x , 'r--')
+
+plt.show()
