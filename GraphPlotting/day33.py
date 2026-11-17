@@ -132,3 +132,17 @@ axes.plot(x , x + 4 , color = 'orange' , linewidth = 2)
 
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+

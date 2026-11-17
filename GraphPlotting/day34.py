@@ -1,0 +1,1 @@
+print("Every door you shut on me taught me how to feel nothing.")
