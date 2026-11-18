@@ -7,6 +7,29 @@ print("It's survival of the fittest in this world filled with violence , decepti
 
 
 
+from matplotlib import style
+
+style.use ('ggplot')
+
+x = [2 , 4 , 6]
+y = [3 , 5 , 7]
+
+x2 = [3 , 7 , 9]
+y2 = [10 , 12 , 14]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 from matplotlib import pyplot as plt 
 from matplotlib import pylab 
 
