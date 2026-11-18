@@ -120,3 +120,25 @@ for ax in axes.flat :
     ax.set_ylabel('Ylabel')
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig = pylab.figure()
+
+axis1 = fig.add_axes([0.1 , 0.2 , 0.3 , 0.4])
+axis2 = fig.add_axes([0.4 , 0.5 , 0.1 , 0.2])
+
+axis1.plot(x , y , 'g+-')
+axis1.plot(y , x , 'r--')
+
+pylab.show()
