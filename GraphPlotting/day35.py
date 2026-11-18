@@ -164,3 +164,23 @@ axis1.plot(x , y , 'b+-')
 axis2.plot(y , x , 'g+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 2 , 1)
+pylab.plot(x , y , 'b--')
+
+pylab.subplot(2 , 1 , 2)
+pylab.plot(y , x , 'g+-')
+
+pylab.show()
