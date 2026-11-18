@@ -98,3 +98,25 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'g+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(nrows = 2 , ncols = 4)
+
+for ax in axes.flat :
+    ax.plot(x , y , 'g--')
+    ax.set_title('Graph')
+    ax.set_xlabel('X-label')
+    ax.set_ylabel('Ylabel')
+
+plt.show()
