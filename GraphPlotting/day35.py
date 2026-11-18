@@ -34,6 +34,8 @@ from matplotlib import pyplot as plt
 from matplotlib import pylab 
 
 fig = pylab.figure()
+axis = fig.add_axes([0.1 , 0.2 , 0.3 , 0.4])
+
 axis.plot(x , y , 'b--')
 axis.set_xlabel('X-label')
 axis.set_ylabel('Y-label')
