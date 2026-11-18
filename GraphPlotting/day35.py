@@ -184,3 +184,30 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'g+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+#In matplotlib we can set other properties such as line colour, transparency and more.
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0 , 10 , 100)
+
+fig ,  axes = plt.subplots(dpi = 150)
+axes.plot(x , x + 1 , color = 'blue' , linewidth = 2)
+axes.plot(x , x + 2 , color = 'green' , linewidth = 2)
+axes.plot(x , x + 3 , color = 'red' , linewidth = 2)
+axes.plot(x , x + 4 , color = 'orange' , linewidth = 2)
+
+
+plt.show()
