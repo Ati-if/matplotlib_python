@@ -1,0 +1,1 @@
+print("It's survival of the fittest in this world filled with violence , deception and betrayel.")
