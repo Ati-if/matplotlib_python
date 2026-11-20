@@ -1,1 +1,19 @@
 print("You miss the old me go find him , he is burried under everything you did.")
+
+
+
+
+
+
+
+
+from matplotlib import style 
+
+style.use ('ggplot')
+
+x = [2 , 4 , 6]
+y = [3 , 5 , 7]
+
+x2 = [2 , 7 , 9]
+y2 = [4 , 8 , 1]
+
