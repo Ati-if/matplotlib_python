@@ -124,3 +124,25 @@ axes.plot(x , x + 2 , color = 'blue' , lw = 2 , linestyle = linestyles[1])
 axes.plot(x , x + 3 , color = 'orange' , lw = 2 , linestyle = linestyles[2])
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+axes.legend(["label1" , "label2" , "label3"])
+fig , axes = plt.subplots()
+axes.set_xlabel('X-Label')
+axes.set_ylabel('Y-Label')
+axes.set_title('Title')
+axes.plot(x , x ** 2 , label = 'X-Squared')
+axes.plot(x , x ** 3 , label = 'X-Cubed')
+
+plt.show()
