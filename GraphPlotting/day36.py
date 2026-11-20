@@ -80,3 +80,25 @@ axes.plot(x , x + 4 , color = 'orange' , linewidth = 2)
 
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(dpi = 150)
+
+axes.plot(x , x ** 2 , color = 'blue' , alpha = 1 , linewidth = 2)
+axes.plot(x , x ** 3 , color = 'red' , alpha = 0.5 , linewidth = 2)
+axes.plot(x , x ** 1 , color = 'orange' , alpha = 0.7 , linewidth = 2)
+axes.plot(x , x ** 2.5 , color = 'green' , alpha = 1 , linewidth = 2)
+
+
+plt.show()
