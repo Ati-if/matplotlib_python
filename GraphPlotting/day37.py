@@ -19,3 +19,26 @@ axes.plot(x , x + 3 , color = 'orange' , linewidth = 2)
 axes.plot(x , x + 4 , color = 'yellow' , linewidth = 2)
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+axes.legend(['label1' , 'label2' , 'label3'])
+
+fig , axes = plt.subplots(dpi = 150) 
+
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+axes.set_title('Graph')
+
+axes.plot(x , x ** 2 , label = 'X-Squared')
+axes.plot(x , x ** 3 , label = 'X-Cubed')
+axes.legend()
+
+plt.show()
