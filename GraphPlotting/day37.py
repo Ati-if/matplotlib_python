@@ -83,3 +83,32 @@ axes.plot(x , x + 3 , color = 'green' , lw = 2 , linestyle = linestyles[2])
 axes.plot(x , x + 4 , color = 'yellow' , lw = 2 , linestyle = linestyles[3])
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig, axes = plt.subplots(dpi=150)
+
+# Define linestyles for blue lines
+linestyles = ['-', '--', '-.', ':']
+
+# Plot the four blue lines with increasing y-offsets and different linestyles
+axes.plot(x, x + 1, color='blue', lw=2, linestyle=linestyles[0])
+axes.plot(x, x + 2, color='blue', lw=2, linestyle=linestyles[1])
+axes.plot(x, x + 3, color='blue', lw=2, linestyle=linestyles[2])
+axes.plot(x, x + 4, color='blue', lw=2, linestyle=linestyles[3])
+
+# Plot the black line with custom dashing
+# The plot function returns a list of Line2D objects, we take the first one [0]
+line = axes.plot(x, x + 4, color="black", lw=2)[0] # Changed lw='2' to lw=2
+line.set_dashes([2, 2, 10, 2]) # Apply the custom dash pattern as previously intended
+
+plt.show()
