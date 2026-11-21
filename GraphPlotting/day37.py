@@ -61,3 +61,25 @@ axes.plot(x , x ** 1 , color = 'green' , alpha = 0.5 , linewidth = 2)
 axes.plot(x , x ** 2.5 , color = 'yellow' , alpha = 0.7 , linewidth = 2)
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots(dpi = 150)
+
+linestyles = ['-' , '--' , '-.' , ':']
+
+axes.plot(x , x + 1 , color = 'blue' , lw = 2 , linestyle = linestyles[0])
+axes.plot(x , x + 2 , color = 'red' , lw = 2 , linestyle = linestyles[1])
+axes.plot(x , x + 3 , color = 'green' , lw = 2 , linestyle = linestyles[2])
+axes.plot(x , x + 4 , color = 'yellow' , lw = 2 , linestyle = linestyles[3])
+
+plt.show()
