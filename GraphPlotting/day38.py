@@ -133,8 +133,8 @@ plt.show()
 
 fig , ax = plt.subplots(dpi = 100)
 ax.plot(x , x + 1 , color = 'blue'   , marker = 'o')
-ax.plot(x , x + 2 , color = 'blue'   , marker = 's')
-ax.plot(x , x + 3 , color = 'blue'   , marker = '+')
-ax.plot(x , x + 4 , color = 'blue'   , marker = 'x')
+ax.plot(x , x + 2 , color = 'red'   , marker = 's')
+ax.plot(x , x + 3 , color = 'green'   , marker = '+')
+ax.plot(x , x + 4 , color = 'orange'   , marker = 'x')
 
 plt.show()
