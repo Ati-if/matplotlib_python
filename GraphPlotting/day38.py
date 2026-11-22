@@ -72,7 +72,7 @@ import numpy as np
 
 x = np.linspace(0 , 10 , 100)
 
-fig , axes = plt.subplots(dpi = 200)
+fig , axes = plt.subplots()
 
 linestyles = ['-' , '--' , ':' , '-.'] 
 
@@ -80,5 +80,29 @@ axes.plot(x , x + 1 , color = 'red' , lw = 2 , linestyle = linestyles[0])
 axes.plot(x , x + 2 , color = 'green' , lw = 2 , linestyle = linestyles[1])
 axes.plot(x , x + 3 , color = 'yellow' , lw = 2 , linestyle = linestyles[2])
 axes.plot(x , x + 4 , color = 'orange' , lw = 2 , linestyle = linestyles[3])
+
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplot(dpi = 150)
+
+ax.plot(x , x + 1 , color = 'red' , lw = 2 , linestyle = '-')
+ax.plot(x , x + 2 , color = 'blue' , lw = 2 , linestyle = '--')
+ax.plot(x , x + 3 , color = 'green' , lw = 2 , linestyle = '-.')
+
+line, = ax.plot(x , x + 4 , color = 'orange' , lw = 2.5)
+line.set_dashes([5 , 10 , 15 , 20]) 
 
 plt.show()
