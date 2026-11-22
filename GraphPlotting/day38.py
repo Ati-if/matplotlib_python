@@ -96,13 +96,25 @@ plt.show()
 
 
 
-fig , ax = plt.subplot(dpi = 150)
 
-ax.plot(x , x + 1 , color = 'red' , lw = 2 , linestyle = '-')
-ax.plot(x , x + 2 , color = 'blue' , lw = 2 , linestyle = '--')
-ax.plot(x , x + 3 , color = 'green' , lw = 2 , linestyle = '-.')
 
-line, = ax.plot(x , x + 4 , color = 'orange' , lw = 2.5)
-line.set_dashes([5 , 10 , 15 , 20]) 
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Create x values
+x = np.linspace(0, 10, 100)
+
+# Create figure and axes
+fig, ax = plt.subplots()
+
+# Plot different line styles
+ax.plot(x, x+1, color='blue', lw=2, linestyle='-')
+ax.plot(x, x+2, color='blue', lw=2, linestyle='-.')
+ax.plot(x, x+3, color='blue', lw=2, linestyle=':')
+
+# Custom dashed line
+line, = ax.plot(x, x+4, color='black', lw=2.50)
+line.set_dashes([5, 10, 15, 10])
+
+# Display the graph
 plt.show()
