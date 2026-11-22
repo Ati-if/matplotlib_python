@@ -1,0 +1,1 @@
+print("I stopped expecting loyalty , I stopped asking to be understand.")
