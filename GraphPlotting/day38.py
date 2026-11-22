@@ -54,3 +54,31 @@ pylab.subplot(2 , 1 , 2)
 pylab.plot(y , x , 'y+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt 
+import numpy as np
+
+x = np.linspace(0 , 10 , 100)
+
+fig , axes = plt.subplots(dpi = 200)
+
+linestyles = ['-' , '--' , ':' , '-.'] 
+
+axes.plot(x , x + 1 , color = 'red' , lw = 2 , linestyle = linestyles[0])
+axes.plot(x , x + 2 , color = 'green' , lw = 2 , linestyle = linestyles[1])
+axes.plot(x , x + 3 , color = 'yellow' , lw = 2 , linestyle = linestyles[2])
+axes.plot(x , x + 4 , color = 'orange' , lw = 2 , linestyle = linestyles[3])
+
+plt.show()
