@@ -109,12 +109,32 @@ fig, ax = plt.subplots()
 
 # Plot different line styles
 ax.plot(x, x+1, color='blue', lw=2, linestyle='-')
-ax.plot(x, x+2, color='blue', lw=2, linestyle='-.')
-ax.plot(x, x+3, color='blue', lw=2, linestyle=':')
+ax.plot(x, x+2, color='red', lw=2, linestyle='-.')
+ax.plot(x, x+3, color='green', lw=2, linestyle=':')
 
 # Custom dashed line
 line, = ax.plot(x, x+4, color='black', lw=2.50)
 line.set_dashes([5, 10, 15, 10])
 
 # Display the graph
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplots(dpi = 100)
+ax.plot(x , x + 1 , color = 'blue'   , marker = 'o')
+ax.plot(x , x + 2 , color = 'blue'   , marker = 's')
+ax.plot(x , x + 3 , color = 'blue'   , marker = '+')
+ax.plot(x , x + 4 , color = 'blue'   , marker = 'x')
+
 plt.show()
