@@ -1,0 +1,1 @@
+print("Maybe I am the problem , Maybe I am the curse , Maybe every version of me only gets worse.")
