@@ -82,3 +82,27 @@ axes.plot(x , x + 3 , color = 'orange' , lw = 2.5 , linestyle = linestyles[2])
 axes.plot(x , x + 4 , color = 'black' , lw = 2 , linestyle = linestyles[3])
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , ax = plt.subplots(dpi = 100)
+
+ax.plot(x , x + 1 , color = 'green' , marker = 'o')
+ax.plot(x , x + 2 , color = 'red' , marker = 's')
+ax.plot(x , x + 3 , color = 'black' , marker = 'x')
+ax.plot(x , x + 4 , color = 'orange' , marker = '+')
+
+
+plt.show()
