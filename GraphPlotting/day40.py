@@ -102,3 +102,33 @@ axes.set_title('Graph')
 
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt 
+import numpy as np 
+
+x = np.linspace(0 , 10 , 100)
+
+fig , axes = plt.subplots()
+
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+axes.set_title('Graph')
+
+axes.plot(x , x ** 2 , label = 'X-Squared')
+axes.plot(x , x ** 3 , label = 'X-Cubed')
+axes.plot(x , x ** 4 , label = 'X-Doubled')
+
+axes.legend()
+plt.show()
