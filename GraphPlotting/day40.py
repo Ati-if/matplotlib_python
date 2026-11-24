@@ -132,3 +132,22 @@ axes.plot(x , x ** 4 , label = 'X-Doubled')
 
 axes.legend()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+fig ,  axes = plt.subplots(dpi = 150)
+axes.plot(x , x + 1 , color = 'blue' , linewidth = 2)
+axes.plot(x , x + 2 , color = 'green' , linewidth = 2)
+axes.plot(x , x + 3 , color = 'red' , linewidth = 2)
+axes.plot(x , x + 4 , color = 'orange' , linewidth = 2)
+
+plt.show()
