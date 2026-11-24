@@ -79,3 +79,26 @@ axis1.plot(x , y , 'g--')
 axis2.plot(y , x , 'r+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fig , axes = plt.subplots()
+
+axes.plot(x , y , 'g--')
+axes.set_xlabel('X-label')
+axes.set_ylabel('Y-label')
+axes.set_title('Graph')
+
+
+plt.show()
