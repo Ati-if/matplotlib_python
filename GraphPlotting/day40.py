@@ -56,3 +56,26 @@ pylab.subplot(2 , 1 , 1)
 pylab.plot(y , x , 'y+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt
+from matplotlib import pylab 
+
+fig = pylab.figure()
+
+axis1 = fig.add_axes([0.1 , 0.2 , 0.3 , 0.4])
+axis2 = fig.add_axes([0.4 , 0.2 , 0.1 , 0.5])
+
+axis1.plot(x , y , 'g--')
+axis2.plot(y , x , 'r+-')
+
+pylab.show()
