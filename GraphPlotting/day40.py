@@ -1,0 +1,1 @@
+print("A shadow in the light always alone.")
