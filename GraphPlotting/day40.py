@@ -151,3 +151,17 @@ axes.plot(x , x + 3 , color = 'red' , linewidth = 2)
 axes.plot(x , x + 4 , color = 'orange' , linewidth = 2)
 
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
