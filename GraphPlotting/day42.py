@@ -78,3 +78,30 @@ pylab.subplot(2 , 2 , 1)
 pylab.plot(y , x , 'g--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(1 , 2 , 1)
+pylab.plot(x , y , 'b--')
+
+pylab.subplot(1 , 2 , 2)
+pylab.plot(y , x , 'r+-')
+
+pylab.subplot(1 , 2 , 1)
+pylab.plot(x , y , 'y--')
+
+pylab.show()
