@@ -1,0 +1,1 @@
+print("People only care when they need something from you.")
