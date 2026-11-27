@@ -36,3 +36,22 @@ pylab.subplot(2 , 2 , 1)
 pylab.plot(y , x , 'g+-')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 2 , 2)
+pylab.plot(x , y , 'r')
+
+pylab.subplot(2 , 2 , 1)
+pylab.plot(y , x , 'g--')
+
+pylab.subplot(2 , 2 , 2)
+pylab.plot(x , y , 'r--')
+
+pylab.show()
