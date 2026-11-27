@@ -55,3 +55,26 @@ pylab.subplot(2 , 2 , 2)
 pylab.plot(x , y , 'r--')
 
 pylab.show()
+
+
+
+
+
+
+
+
+
+
+from matplotlib import pyplot as plt 
+from matplotlib import pylab 
+import matplotlib.pyplot as plt 
+
+plt.bar(x , y , label = 'Bar1' , color = 'red')
+plt.bar(x2 , y2 , label = 'Bar2' , color = 'black')
+
+plt.xlabel ('Bar Number')
+plt.ylabel ('Bar Height')
+plt.title('Bar Chart')
+plt.legend()
+
+plt.show()
