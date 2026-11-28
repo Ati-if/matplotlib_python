@@ -125,3 +125,28 @@ custom_colors = ["#ff6b6b", "#4ecdc4", "#ffe66d"]
 plt.pie(s, labels=["A", "B", "C"], colors=custom_colors)
 plt.show()
 print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+pylab.subplot(2 , 2 , 1)
+pylab.plot(x , y , 'r--')
+
+pylab.subplot(2 , 2 , 2)
+pylab.plot(y , x , 'g+-')
+
+pylab.subplot(2 , 2 , 3)
+pylab.plot(x , y , 'y+-')
+
+pylab.subplot(2 , 2 , 4)
+pylab.plot(y , x , 'b--')
+
+pylab.show()
