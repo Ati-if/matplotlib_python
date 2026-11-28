@@ -80,3 +80,48 @@ plt.title('Bar Chart')
 
 plt.legend()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+import numpy as np 
+
+s = np.array([2 , 3 , 4])
+
+plt.pie(s , labels = ['A' , 'B' , 'C'])
+
+plt.show()
+print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+s = np.array([2, 3, 4])
+
+custom_colors = ["#ff6b6b", "#4ecdc4", "#ffe66d"]
+
+plt.pie(s, labels=["A", "B", "C"], colors=custom_colors)
+plt.show()
+print(s)
